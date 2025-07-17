@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+
+</head>
+
+<body>
+  <section id="home" class="min-h-screen flex flex-col justify-center items-center bg-gray-900 text-white">
+    <img src="images/Profile/profileavtar.png" class="w-40 h-45 rounded-full mb-4 shadow-[0_0_25px_#ffffff60]" alt="Profile">
+    <h1 class="text-5xl font-extrabold tracking-tight">Hi, I'm <span class="text-blue-400">Tanushree</span></h1>
+    <p class="text-xl italic mt-2 text-gray-300">Turning ideas into interactive websites ✨</p>
+
+    <a href="resume.pdf"
+      class="mt-6 inline-block px-6 py-3 bg-blue-600 hover:bg-blue-700 transition-colors duration-300 text-white font-medium rounded-full shadow-md">
+      📄 Download Resume
+    </a>
+
+  </section>
+
+  <section id="about" class="py-20 px-4 bg-gradient-to-b from-gray-100 to-gray-200 text-gray-800">
+    <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-xl p-8">
+      <h2 class="text-4xl font-extrabold text-center text-blue-700 mb-6">About Me</h2>
+      <p class="text-center text-lg mb-6">I’m a 3rd year B.Sc student learning frontend development. This is my first
+        portfolio project.</p>
+
+      <div class="grid md:grid-cols-2 gap-8">
+        <div>
+          <h3 class="text-xl font-semibold text-gray-700 mb-2">💡 Skills</h3>
+          <ul class="list-disc list-inside space-y-1 text-gray-600">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Tailwind CSS</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="text-xl font-semibold text-gray-700 mb-2">🎓 Education</h3>
+          <div class="bg-blue-50 p-4 rounded-lg shadow-inner border-l-4 border-blue-500">
+            <p>B.Sc, Computer Science – Delhi University <br> <span class="text-sm text-gray-500">(2023–Ongoing)</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="projects" class="py-20 px-4 bg-white text-gray-800">
+  <div class="max-w-6xl mx-auto">
+    <h2 class="text-4xl font-extrabold text-center text-blue-700 mb-12">Projects</h2>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      
+      <!-- Project 1 -->
+      <div class="bg-gray-50 rounded-xl shadow-md hover:shadow-2xl hover:scale-105 transition-all duration-300 p-6">
+        <div class="mb-4 overflow-x-auto whitespace-nowrap space-x-4 flex">
+          <img src="images/Project 1/project1img.png" alt="Screenshot 1" class="h-40 rounded shadow-sm inline-block">
+          <img src="images/Project 1/project1img2.png" alt="Screenshot 2" class="h-40 rounded shadow-sm inline-block">
+          <img src="images/Project 1/project1img3.png" alt="Screenshot 3" class="h-40 rounded shadow-sm inline-block">
+          <img src="images/Project 1/project1img4.png" alt="Screenshot 4" class="h-40 rounded shadow-sm inline-block">
+        </div>
+        <h3 class="text-xl font-bold mb-2">Portfolio</h3>
+        <p class="text-sm mb-4 text-gray-600">A dummy project using HTML & Tailwind CSS to showcase layout structure.</p>
+        <a href="#" class="text-blue-600 hover:underline">View Project →</a>
+      </div>
+
+      <!-- Project 2 (Wattpad Clone) -->
+      <div class="bg-gray-50 rounded-xl shadow-md hover:shadow-2xl hover:scale-105 transition-all duration-300 p-6">
+        <div class="mb-4 overflow-x-auto whitespace-nowrap space-x-4 flex">
+          <img src="images/Project 2/project2img1.png" alt="Screenshot 1" class="h-40 rounded shadow-sm inline-block">
+          <img src="images/Project 2/project2img2.png" alt="Screenshot 2" class="h-40 rounded shadow-sm inline-block">
+          <img src="images/Project 2/project2img3.png" alt="Screenshot 3" class="h-40 rounded shadow-sm inline-block">
+          <img src="images/Project 2/project2img4.png" alt="Screenshot 4" class="h-40 rounded shadow-sm inline-block">
+          <img src="images/Project 2/project2img5.png" alt="Screenshot 5" class="h-40 rounded shadow-sm inline-block">
+          <img src="images/Project 2/project2img6.png" alt="Screenshot 6" class="h-40 rounded shadow-sm inline-block">
+          <img src="images/Project 2/project2img7.png" alt="Screenshot 7" class="h-40 rounded shadow-sm inline-block">
+        </div>
+
+        <h3 class="text-xl font-bold mb-2">Wattpad UI Clone</h3>
+        <p class="text-sm mb-4 text-gray-600">A static front-end clone of Wattpad's homepage using only HTML and CSS. Fully responsive layout with a clean UI.</p>
+        <a href="#projects" target="_blank" class="text-blue-600 hover:underline mr-4">View Code (coming soon)</a>
+      </div>
+
+      <!-- Project 3 (Coming Soon) -->
+      <div class="bg-gray-50 rounded-xl shadow-md hover:shadow-2xl hover:scale-105 transition-all duration-300 p-6 flex flex-col justify-between">
+        <img src="images/Project 3/project3img.avif" alt="Coming Soon"
+          class="rounded-md mb-4 shadow-sm object-cover h-40 w-full bg-gray-200">
+        <h3 class="text-xl font-bold mb-2">Portfolio v2 (HTML & CSS)</h3>
+        <p class="text-sm mb-4 text-gray-600">A cleaner, more semantic version of my portfolio website using only HTML and plain CSS. Currently under development — stay tuned!</p>
+        <span class="text-xs text-gray-500 mt-auto">Coming Soon</span>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+  <section id="contact" class="py-20 px-4 bg-gradient-to-t from-gray-100 to-white text-gray-800">
+    <div class="max-w-xl mx-auto bg-white shadow-xl rounded-xl p-8">
+      <h2 class="text-4xl font-bold mb-8 text-center text-blue-700">Contact Me</h2>
+
+      <form class="flex flex-col gap-4">
+        <input type="text" placeholder="Name"
+          class="border border-gray-300 p-3 rounded focus:ring-2 focus:ring-blue-400 focus:outline-none">
+        <input type="email" placeholder="Email"
+          class="border border-gray-300 p-3 rounded focus:ring-2 focus:ring-blue-400 focus:outline-none">
+        <textarea placeholder="Message" rows="4"
+          class="border border-gray-300 p-3 rounded focus:ring-2 focus:ring-blue-400 focus:outline-none"></textarea>
+        <button type="submit"
+          class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded transition">Send</button>
+      </form>
+
+      <div class="mt-8 flex space-x-6 justify-center text-2xl text-gray-500">
+        <a href="mailto:tanur6708@gmail.com" class="hover:text-red-500" aria-label="Gmail">
+          <i class="fas fa-envelope"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/tanushree-38140a332?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+          target="_blank" class="hover:text-blue-700" aria-label="LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://www.instagram.com/millieook/?igsh=bzkzd2s1M2gxZDcy" target="_blank" class="hover:text-pink-500"
+          aria-label="Instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+<footer class="bg-gray-900 text-gray-400 text-center py-4 text-sm">
+  Project by <strong class="text-white">Tanushree</strong> • For learning purposes only
+</footer>
+
+
+  <nav class="fixed top-0 left-0 w-full bg-white shadow z-10">
+    <ul class="flex justify-center space-x-6 p-4">
+      <li><a href="#home" class="text-blue-600 font-semibold">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+
+</body>
+
+</html>
